@@ -131,7 +131,7 @@ aside {
 
     section {
         padding: 10px 0;
-        margin-top: 20pix;
+        margin-top: 20px;
 
         &:first-child {
             border: 0;
@@ -194,4 +194,18 @@ input {
     .form-control {
         color: $state-danger-text;
     }
+}
+
+.checkbox{
+  margin-top:-10px;
+  margin-bottom: 10px;
+  span{
+    margin-left: 20px;
+    font-weight: normal;
+  }
+}
+
+#session_remember_me{
+  width: auto;
+  margin-left: 0;
 }
